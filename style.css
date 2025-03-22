@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cfa5ff6c;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+}
+
+.container .tenor-gif-embed {
+    max-width: 400px;
+}
+
+.btn {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 10px; /* Adds spacing between text and buttons */
+}
+
+.btn a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 25px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0.5rem 1rem 3rem rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.btn a:hover {
+    background-color: #7300ff;
+    color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0.5rem 1rem 4rem #7300ff;
+}
+
+
